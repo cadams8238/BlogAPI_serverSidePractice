@@ -71,7 +71,7 @@ router.put("/:id", jsonParser, (req, res) => {
 		author: req.body.author,
 		publishDate: req.body.publishDate
 	});
-	res.status(204).end();
+	res.status(200).json(updatedPost);
 });
 
 

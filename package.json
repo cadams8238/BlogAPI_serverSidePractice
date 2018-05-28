@@ -4,7 +4,7 @@
   "description": "practicing server side skills from scratch",
   "main": "server.js",
   "scripts": {
-    "test": "nodemon server.js",
+    "test": "mocha --exit",
     "start": "node server.js"
   },
   "author": "Courtney Adams",
@@ -14,5 +14,10 @@
     "morgan": "^1.9.0",
     "npm": "^6.1.0",
     "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "mocha": "^5.2.0"
   }
 }
