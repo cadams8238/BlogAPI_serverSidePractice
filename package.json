@@ -1,0 +1,18 @@
+{
+  "name": "server-side-practice",
+  "version": "1.0.0",
+  "description": "practicing server side skills from scratch",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Courtney Adams",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "npm": "^6.1.0",
+    "uuid": "^3.2.1"
+  }
+}
